@@ -13,7 +13,7 @@ const server = http.createServer((req, res) => {
       message: "Hello from MyDeploy!",
       status: "ok",
       deployedBy: "github",
-      previewRevision: "A",
+      previewRevision: "B",
     })
   );
 });
